@@ -42,16 +42,7 @@ public class WeatherSimulatorControllerTest {
 		 
 		 mvc.perform(MockMvcRequestBuilders.get("/weather"))
          .andExpect(status().isOk());
-        // .andExpect((ResultMatcher) content().string(equalTo("Greetings from Spring Boot!")));
-
-		/*
-		 * WeatherSimulatorController simulatorController = new
-		 * WeatherSimulatorController(); List<String> result =
-		 * simulatorController.getWeatherData(); assertEquals(10, result.size());
-		 */
-	 }
-	 
-
-	 
+     	 }
+ 
 
 }
