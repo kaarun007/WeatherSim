@@ -25,11 +25,11 @@ Build:
    - mvn clean package
    - (eg: C:\ARUN\WeatherSim>mvn clean package)
 4. run the application using the below commands
-  - mvn spring-boot:run
-  -    (or)
-  - java jar target\WeatherSim-0.0.1-SNAPSHOT.jar
+    - mvn spring-boot:run
+    -    (or)
+    - java jar target\WeatherSim-0.0.1-SNAPSHOT.jar
    
-  - The above commands would start the weathersim microservice. The service will be listend in 8080 port
+    - The above commands would start the weathersim microservice. The service will be listend in 8080 port
 5. Open any browser and type localhost:8080/weather to see the simulator output.   
     
   
