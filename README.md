@@ -16,7 +16,7 @@ Currently the game takes place on earth. If the game is shifted to some other pl
 # Build Instructions
 *Pre-requisite:
  - Ensure Java and Maven are installed. 
- - Ensure JAVA_HOME and M2_HOME environemnt variables are set
+ - Ensure JAVA_HOME and M2_HOME environemnt variables are set.
 Build:
 1. Download https://github.com/kaarun007/WeatherSim in terminal
 2. Change the directory to the project directory(WeatherSim)
