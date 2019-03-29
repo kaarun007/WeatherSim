@@ -23,7 +23,7 @@ Build:
 2. Change the directory to the project directory(WeatherSim)
 3. Build the project using the below command
    - mvn clean package
-   - (eg: C:\ARUN\WeatherSim\target>mvn clean package)
+   - (eg: C:\ARUN\WeatherSim>mvn clean package)
 4. run the application using the below commands
   - mvn spring-boot:run
   -    (or)
