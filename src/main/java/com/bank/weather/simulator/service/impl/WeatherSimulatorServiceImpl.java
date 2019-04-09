@@ -34,8 +34,7 @@ import com.bank.weather.simulator.util.WeatherUtil;
 @Service
 public class WeatherSimulatorServiceImpl implements WeatherSimulatorService {
 	private final Logger logger = LoggerFactory.getLogger(WeatherSimulatorServiceImpl.class);
-	private List<String> weatherDataList = new ArrayList<String>();
-
+	
 	/**
 	 * <p>This method generates the random weather data for each location based on the weather condition.
 	 * </p>
@@ -44,7 +43,7 @@ public class WeatherSimulatorServiceImpl implements WeatherSimulatorService {
 	 */
 	@Override
 	public List<String> generateWeather(ConfigProperties configProperties) {
-
+		List<String> weatherDataList = new ArrayList<String>();
 		if (configProperties.getSimulatorMode().equals("mixed")) {
 			List<Weather> weather = generateMixedWeather(configProperties);
 			weather.forEach(e -> weatherDataList.add(e.toString()));
